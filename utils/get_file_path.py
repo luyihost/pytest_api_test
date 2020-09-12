@@ -1,6 +1,6 @@
 # encoding: utf-8
 '''
-@author: lingshu
+@author: luyihost
 @file: get_file_path.py
 @time: 2019/6/21 17:09
 @desc: 获取文件路径

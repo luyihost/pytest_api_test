@@ -1,6 +1,6 @@
 # encoding: utf-8
 '''
-@author: lingshu
+@author: luyihost
 @file: read_excel.py
 @time: 2019/6/21 17:03
 @desc: 读取excel
