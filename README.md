@@ -21,13 +21,10 @@ https://postman-echo.com/time/before?timestamp=2016-10-10&target=2018-12-13
 - selenium
 - xlrd
 
-2、 项目目录如下图：
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190716191351845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhbGVuMjAxNg==,size_16,color_FFFFFF,t_70)
-3、config
+2、config
 这个包下放的配置文件，如环境、url地址等
 
-4、test_case
+3、test_case
 这个包放的是测试用例文件，本次接口测试用例为：test_postman_api.py
 另：conftest.py是pytest的一个pytest的配置文件，单独管理一些预置的操作场景
 
@@ -65,32 +62,20 @@ def test_timestamp(timestamp,target,expected,env_config):
 
 
 ```
-5、 testdata
+4、 testdata
 把测试数据放到excel里，实现脚本和数据分离
 
-6、utils
+5、utils
 工具类包，如读取excel文件
 
-7、test_all_run.py
+6、test_all_run.py
 全局运行文件，实现运行所有测试用例
 
 
 ## Jenkins运行
-1、 Jenkins添加Allure插件。可以参考我的另一篇博客：https://blog.csdn.net/galen2016/article/details/88015322
+可参考我的CSDN文档
+https://blog.csdn.net/m0_48133963/article/details/108547777
 
-2、 新建一个任务
-- 新建一个任务，从svn拉取上面项目的代码
-- 构建命令
 
-```
-python test_all_run.py
-pytest -s -q --alluredir allure-results
-```
-- 构建后操作：添加Allure Report
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190716193421113.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhbGVuMjAxNg==,size_16,color_FFFFFF,t_70)
-3、 立即构建
-- 构建后如下图：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019070911370980.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhbGVuMjAxNg==,size_16,color_FFFFFF,t_70)
 
 
