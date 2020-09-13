@@ -1,4 +1,4 @@
-# api_auto_test
+# pytest_api_test
 概要：对postman的一个接口做了接口自动化测试，使用Pytest+Request+Allure+Jenkins 框架
 ## 技术栈：
 - python3 、pytest、Requests
@@ -40,7 +40,7 @@ import pytest
 import requests
 from utils.read_excel import *
 '''
-@author: lingshu
+@author: luyihost
 @file: test_postman_api.py
 @time: 2019/7/8 20:54
 @desc: 测试postman API
