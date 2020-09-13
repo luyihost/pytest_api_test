@@ -93,10 +93,4 @@ pytest -s -q --alluredir allure-results
 - 构建后如下图：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019070911370980.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhbGVuMjAxNg==,size_16,color_FFFFFF,t_70)
 
-### Allure测试报告
-1、点击Allure Report，参考测试报告
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190716194139471.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhbGVuMjAxNg==,size_16,color_FFFFFF,t_70)
-2、测试套
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190716194227107.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhbGVuMjAxNg==,size_16,color_FFFFFF,t_70)
-3、点击一个具体的行，查看详情，可以看到用例描述、参数信息等
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190716194356300.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dhbGVuMjAxNg==,size_16,color_FFFFFF,t_70)
+
