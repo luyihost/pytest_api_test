@@ -25,5 +25,6 @@ def test_timestamp(timestamp,target,expected,env_config):
     r = requests.get(url,params=payload)
     print(r.url)
     result = r.json()
+    allure.
     assert str(result['before'])==expected
 

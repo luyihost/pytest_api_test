@@ -40,7 +40,7 @@ import pytest
 import requests
 from utils.read_excel import *
 '''
-@author: lingshu
+@author: luyihost
 @file: test_postman_api.py
 @time: 2019/7/8 20:54
 @desc: 测试postman API
